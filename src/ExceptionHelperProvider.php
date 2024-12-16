@@ -15,7 +15,7 @@ class ExceptionHelperProvider extends ServiceProvider
     {
         // 绑定异常处理服务到服务容器
         $this->app->singleton('exception-helper', function ($app) {
-            return new ExceptionHelper($app['session'], $app['config']);
+            return new ExceptionHelper($app['config']);
         });
     }
 
