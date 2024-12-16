@@ -1,0 +1,15 @@
+{
+    "name": "linxi/exception-helper",
+    "autoload": {
+        "psr-4": {
+            "Linxi\\ExceptionHelper\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "zhangguofu",
+            "email": "zhangguofu@douyuxingchen.com"
+        }
+    ],
+    "require": {}
+}
