@@ -3,17 +3,14 @@
 namespace Linxi\ExceptionHelper;
 
 use Illuminate\Config\Repository;
-use Illuminate\Session\SessionManager;
 use Illuminate\Support\Facades\Log;
 
 class ExceptionHelper
 {
-    protected $session;
     protected $config;
 
-    public function __construct(SessionManager $session, Repository $config)
+    public function __construct(Repository $config)
     {
-        $this->session = $session;
         $this->config = $config;
     }
 
